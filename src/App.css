@@ -1,0 +1,229 @@
+.show{
+  display: block;
+
+}
+
+.hide{
+  display: none !important;
+}
+
+.picture{
+  margin-bottom: 15px;
+}
+
+.action-button{
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: #f6c726;
+  border: 0px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #251239;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgb(53, 53, 53);
+  -moz-box-shadow: 5px 5px 5px rgb(53, 53, 53);
+  -webkit-box-shadow: 5px 5px 5px rgb(53, 53, 53);
+  
+}
+
+.lines{
+  border-top: 1px solid rgb(206, 200, 200);
+  border-bottom: 1px solid rgb(206, 200, 200);
+  padding: 15px;
+  background-color: rgb(244, 252, 255);
+
+}
+
+
+.color-button{
+display: block;
+margin: 10px auto;
+width: 100px;
+height: 100px;
+border-width: 15px;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+box-shadow: inset 5px 5px 5px rgb(53, 53, 53);
+-moz-box-shadow: inset 5px 5px 5px rgb(53, 53, 53);
+-webkit-box-shadow: inset 5px 5px 5px rgb(53, 53, 53);
+
+
+}
+
+.red{
+background-color: rgba(255, 0, 0, 0.733);
+}
+
+.yellow{
+  background-color: rgb(255, 196, 0);
+
+}
+
+.blue{
+  background-color: rgb(0, 68, 255);
+
+}
+
+.white{
+  background-color: white ;
+
+}
+
+
+
+
+.mix-button{
+  display: block;
+  margin: 20px auto;
+  width: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: #f6c726;
+  border: 0px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #251239;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgb(53, 53, 53);
+  -moz-box-shadow: 5px 5px 5px rgb(53, 53, 53);
+  -webkit-box-shadow: 5px 5px 5px rgb(53, 53, 53);
+}
+
+.stir-place{
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 15px;
+  border-color:rgb(12, 12, 12);
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: inset 5px 5px 5px rgb(53, 53, 53);
+  -moz-box-shadow: inset 5px 5px 5px rgb(53, 53, 53);
+  -webkit-box-shadow: inset 5px 5px 5px rgb(53, 53, 53);
+
+}
+
+.spinner{
+  margin-top: 70px;
+}
+
+
+.orange{
+  animation: orange linear 1s normal forwards;
+}
+
+@keyframes orange {
+  0%{
+    background-color: initial;
+  }
+  100% {
+    background-color: rgb(240, 123, 22);
+  }
+  
+}
+
+.violet{
+  animation: violet linear 1s normal forwards;
+}
+
+@keyframes violet {
+  0%{
+    background-color: initial;
+  }
+  100% {
+    background-color: rgb(132, 57, 155);
+  }
+}
+
+.pink{
+  animation: pink linear 1s normal forwards;
+}
+
+@keyframes pink {
+  0%{
+    background-color: initial;
+  }
+  100% {
+    background-color: rgb(250, 168, 168);
+  }
+}
+
+.green{
+  animation: green linear 1s normal forwards;
+}
+
+@keyframes green {
+  0%{
+    background-color: initial;
+  }
+  100% {
+    background-color: rgb(27, 133, 36);
+  }
+}
+
+.light-yellow{
+  animation: light-yellow linear 1s normal forwards;
+}
+
+@keyframes light-yellow {
+  0%{
+    background-color: initial;
+  }
+  100% {
+    background-color: rgb(250, 236, 109);
+  }
+}
+
+.light-blue{
+  animation: light-blue linear 1s normal forwards;
+}
+
+@keyframes light-blue {
+  0%{
+    background-color: initial;
+  }
+  100% {
+    background-color: rgb(153, 185, 253);
+    
+  }
+}
+
+.sheet{
+  margin: 20px auto;
+  width: 260px;
+  box-shadow:  0 0  10px rgb(53, 53, 53);
+  -moz-box-shadow:  0 0 10px rgb(53, 53, 53);
+  -webkit-box-shadow:  0 0 10px rgb(53, 53, 53);
+
+}
+
+
+@media (min-width: 840px){
+  .color-button{
+    width: 200px;
+    height: 200px;
+  }
+
+  .action-button{
+    margin: 20px auto;
+    width: 150px;
+    font-size: 24px;
+  }
+
+  
+}
+
+@media(min-width: 1000px){
+  .sheet{
+    width: 430px;
+    
+  }
+}
